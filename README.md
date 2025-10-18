@@ -1,7 +1,7 @@
 ## Table of Contents
 
 - [About](#about)
-- [Harvard Architecture](#harvard-architecture)
+- [Architecture](#architecture)
 - [CPU](#cpu)
   - [The A-Instruction](#the-a-instruction)
     - [Dual Purpose A-Register](#dual-purpose-a-register)
@@ -11,11 +11,15 @@
 
 # About
 
-This project is an implementation of the "Hack" computer specification from Nisan & Schocken's _The Elements of Computing Systems_. All circuits were designed using [Digital](https://github.com/hneemann/Digital?tab=readme-ov-file), an open-source digital logic designer and circuit simulator.
+This project is an implementation of the "Hack" computer specification from Nisan & Schocken's _The Elements of Computing Systems_. 
 
-# Harvard Architecture
+All circuits were designed using [Digital](https://github.com/hneemann/Digital?tab=readme-ov-file), an open-source digital logic designer and circuit simulator.
 
-The Harvard architecture is a variant of the Von Neumann machine where program memory and data memory are separate.
+# Architecture
+
+The `HackComputer` is a Harvard architecture computer, meaning that program memory and data memory are physically separate.[^1] 
+
+[^1]: This is distinct from the more familiar Von Neumann architecture, in which program instructions and data share a unified memory space in RAM.
 
 <img width="555" height="508" alt="Computer" src="https://github.com/user-attachments/assets/84cd90c5-d9dc-4923-9b1c-88e013d686c9" />
 
@@ -45,7 +49,7 @@ Instructions flow in on a 16-bit wide bus and are decoded through a series of lo
 
 Bit 15 determines the instruction type: if low, it's an A-instruction; if high, it's a C-instruction. When bit 15 is low, the ALU and jump logic are bypassed, and bits 0-14 are treated as numeric data to be loaded into the A-Register.
 
-An A-instruction is denoted in "Hack" assembly by the `@` symbol. For example, `@15` translates to `0x000F` in hexadecimal and `0b0000000000001111` in binary, loading the value 15 into the A-Register.[^1]
+An A-instruction is denoted in "Hack" assembly by the `@` symbol. For example, `@15` translates to `0x000F` in hexadecimal and `0b0000000000001111` in binary, loading the value 15 into the A-Register.[^2]
 
 <img width="530" height="530" alt="A-Instruction" src="https://github.com/user-attachments/assets/b7f8fa12-6231-46a1-a8eb-c0157a9aadca" />
 
@@ -55,7 +59,7 @@ Incoming instructions are split and duplicated along two bus lines: the A Bus (t
 
 This means the A-Register loads under two conditions: when bit 15 is low (an A-instruction), or when bit 15 is high and bit 5 is set (a C-instruction using the A-Register as a destination). This allows the A-Register to serve dual purposes: as the primary data register for A-instructions, and as an optional destination register for C-instructions.
 
-[^1]: The A-Register holds 15 bits of data (bits 0-14). For _unsigned_ integers, this gives a range of 0 to 32,767. For _signed_ integers using two's complement, the range is -16,384 to 16,383.
+[^2]: The A-Register holds 15 bits of data (bits 0-14). For _unsigned_ integers, this gives a range of 0 to 32,767. For _signed_ integers using two's complement, the range is -16,384 to 16,383.
 
 ### The C-Instruction
 
@@ -93,9 +97,9 @@ Going from most significant bit to least, this decodes as follows:
 
 The destination for a computation can be any combination of: the A-Register, the D-Register, or the memory location addressed by the A-Register (RAM[A], denoted as `M` in Hack assembly).
 
-The following tables provide a complete reference of `comp`, `dest`, and `jump` encodings.[^2]
+The following tables provide a complete reference of `comp`, `dest`, and `jump` encodings.[^3]
 
-[^2]: Tables taken from Nisan & Shocken's _The Elements of Computing Systems: Building a Modern Computer from First Principles_
+[^3]: Tables adapted from Nisan & Shocken's _The Elements of Computing Systems: Building a Modern Computer from First Principles_
 
 <table>
 <tr>
