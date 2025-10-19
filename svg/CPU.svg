@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Digital by H.Neemann -->
+
+<!-- created: Wed Oct 15 18:33:36 CDT 2025 -->
+
+<svg
+   width="237.75mm"
+   height="122.85mm"
+   viewBox="553 -642 1585 819"
+   version="1.1"
+   id="svg235"
+   sodipodi:docname="CPU.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs235" />
+  <sodipodi:namedview
+     id="namedview235"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="3.2613717"
+     inkscape:cx="410.71675"
+     inkscape:cy="203.44201"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="1710"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g37" />
+  <g
+     stroke-linecap="square"
+     id="g235">
+    <g
+       id="g103"
+       transform="translate(-81.917068,91.442308)">
+      <g
+         id="g37"
+         transform="translate(1244.8611,-644.96786)">
+        <path
+           d="m 120,180 h 60 v 100 h -60 z"
+           stroke="#ffffb4"
+           stroke-width="0"
+           fill="#ffffb4"
+           fill-opacity="0.784314"
+           id="path21-2" />
+        <path
+           d="m 120,180 h 60 v 100 h -60 z"
+           stroke="#000000"
+           stroke-width="4"
+           fill="none"
+           id="path22" />
+        <text
+           text-anchor="middle"
+           x="150"
+           y="297.5"
+           fill="#808080"
+           style="font-size:18px"
+           id="text22">CPU</text>
+        <circle
+           cx="120"
+           cy="227.05554"
+           r="2"
+           stroke="#0000b2"
+           stroke-width="4"
+           fill="#0000b2"
+           id="pin:inM" />
+        <circle
+           cx="120"
+           cy="247.05554"
+           r="2"
+           stroke="#0000b2"
+           stroke-width="4"
+           fill="#0000b2"
+           id="pin:instruction" />
+        <circle
+           cx="120"
+           cy="272.6875"
+           r="2"
+           stroke="#0000b2"
+           stroke-width="4"
+           fill="#0000b2"
+           id="pin:reset" />
+        <circle
+           cx="120"
+           cy="200"
+           r="2"
+           stroke="#0000b2"
+           stroke-width="4"
+           fill="#0000b2"
+           id="pin:clock" />
+        <circle
+           cx="180"
+           cy="189.41669"
+           r="2"
+           stroke="#b20000"
+           stroke-width="4"
+           fill="#b20000"
+           id="pin:outM" />
+        <circle
+           cx="180"
+           cy="212.94446"
+           r="2"
+           stroke="#b20000"
+           stroke-width="4"
+           fill="#b20000"
+           id="pin:writeM" />
+        <circle
+           cx="180"
+           cy="229.41669"
+           r="2"
+           stroke="#b20000"
+           stroke-width="4"
+           fill="#b20000"
+           id="pin:pc" />
+        <circle
+           cx="180"
+           cy="245.88892"
+           r="2"
+           stroke="#b20000"
+           stroke-width="4"
+           fill="#b20000"
+           id="pin:addressM" />
+        <text
+           text-anchor="start"
+           x="132.11951"
+           y="246.828"
+           fill="#808080"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.40741px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:start;fill:#808080"
+           id="text13-1"><tspan
+             sodipodi:role="line"
+             id="tspan53-7"
+             x="132.11951"
+             y="246.828">addressM</tspan></text>
+        <text
+           text-anchor="end"
+           x="169.40926"
+           y="258.91336"
+           fill="#808080"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.40741px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:end;fill:#808080"
+           id="text15-3"><tspan
+             sodipodi:role="line"
+             id="tspan54-1"
+             x="169.40926"
+             y="258.91336">instruction</tspan></text>
+        <text
+           text-anchor="start"
+           x="126.80029"
+           y="273.28632"
+           fill="#808080"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.40741px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:start;fill:#808080"
+           id="text14-2"><tspan
+             sodipodi:role="line"
+             id="tspan55-0"
+             x="126.80029"
+             y="273.28632">reset</tspan></text>
+        <text
+           text-anchor="start"
+           x="126.45577"
+           y="230.41095"
+           fill="#808080"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.40741px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:start;fill:#808080"
+           id="text14-2-4"><tspan
+             sodipodi:role="line"
+             id="tspan56"
+             x="126.45577"
+             y="230.41095">inM</tspan></text>
+        <text
+           text-anchor="start"
+           x="163.54335"
+           y="230.69116"
+           fill="#808080"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.40741px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:start;fill:#808080"
+           id="text14-2-4-8"><tspan
+             sodipodi:role="line"
+             id="tspan57"
+             x="163.54335"
+             y="230.69116">pc</tspan></text>
+        <text
+           text-anchor="start"
+           x="142.37674"
+           y="216.58005"
+           fill="#808080"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.40741px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:start;fill:#808080"
+           id="text14-2-4-0"><tspan
+             sodipodi:role="line"
+             id="tspan58"
+             x="142.37674"
+             y="216.58005">writeM</tspan></text>
+        <text
+           text-anchor="start"
+           x="125.14663"
+           y="200.70505"
+           fill="#808080"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.40741px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:start;fill:#808080"
+           id="text14-2-4-0-7"><tspan
+             sodipodi:role="line"
+             id="tspan59"
+             x="125.14663"
+             y="200.70505">clock</tspan></text>
+        <text
+           text-anchor="start"
+           x="151.5177"
+           y="193.91132"
+           fill="#808080"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.40741px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:start;fill:#808080"
+           id="text14-2-4-0-7-9"><tspan
+             sodipodi:role="line"
+             id="tspan60"
+             x="151.5177"
+             y="193.91132">outM</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

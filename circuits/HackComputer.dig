@@ -1,7 +1,1061 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
   <version>2</version>
-  <attributes/>
+  <attributes>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
+    <entry>
+      <string>customShape</string>
+      <shape>
+        <pins>
+          <entry>
+            <string>reset</string>
+            <pin>
+              <pos x="0" y="220"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>clock</string>
+            <pin>
+              <pos x="100" y="0"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+        </pins>
+        <drawables>
+          <poly>
+            <poly path="M -20,20 L 20,20 L 20.875,87.84723 L 80,87.40973" evenOdd="false"/>
+            <thickness>4</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 140,116.9375 L 180,116.9375 L 180,-40 L -100,-40 L -100,-20 L -80,-20" evenOdd="false"/>
+            <thickness>4</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 0,220 L 40,220 L 40.4375,132.6875 L 79.5625,132.25" evenOdd="false"/>
+            <thickness>4</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 140.4375,49.909714 L 200.875,50.347214 L 200,-60 L -120,-60 L -120,0 L -80,0" evenOdd="false"/>
+            <thickness>4</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M -100,60 L -80,60" evenOdd="false"/>
+            <thickness>4</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M -100,160 L -80,160" evenOdd="false"/>
+            <thickness>4</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 60,60 L 60,0 L 100,0" evenOdd="false"/>
+            <thickness>4</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 140,89.90971 L 220,89.90971 L 220,260 L -140,260 L -140,120 L -80,120" evenOdd="false"/>
+            <thickness>4</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M -20,140 L 20,140 L 20,104.78473 L 80,104.34723" evenOdd="false"/>
+            <thickness>4</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 140,73.4375 L 220.4375,73.875 L 220,-80 L -140,-80 L -140,20 L -80,20" evenOdd="false"/>
+            <thickness>4</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 80,60 L 60,60 L 0,60 L 0,100 L -140,100 L -140,40 L -80,40" evenOdd="false"/>
+            <thickness>4</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <circle>
+            <p1 x="56" y="56"/>
+            <p2 x="64" y="64"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>false</filled>
+          </circle>
+          <circle>
+            <p1 x="56" y="56"/>
+            <p2 x="64" y="64"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>true</filled>
+          </circle>
+          <poly>
+            <poly path="M -31,205 L -1,205 L -1,235 L -31,235 Z" evenOdd="false"/>
+            <thickness>4</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <circle>
+            <p1 x="-25" y="211"/>
+            <p2 x="-7" y="229"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>false</filled>
+          </circle>
+          <text>
+            <p1 x="-45" y="229"/>
+            <p2 x="-44" y="229"/>
+            <text>reset</text>
+            <orientation>RIGHTBOTTOM</orientation>
+            <size>24</size>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <poly>
+            <poly path="M -79,110 L -21,110 L -21,170 L -79,170 Z" evenOdd="false"/>
+            <thickness>4</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="-76" y="123"/>
+            <p2 x="-75" y="123"/>
+            <text>address</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="-76" y="167"/>
+            <p2 x="-75" y="167"/>
+            <text>select</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="-24" y="143"/>
+            <p2 x="-23" y="143"/>
+            <text>instruction</text>
+            <orientation>RIGHTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="-50" y="188"/>
+            <p2 x="-49" y="188"/>
+            <text>ROM</text>
+            <orientation>CENTERBOTTOM</orientation>
+            <size>18</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <circle>
+            <p1 x="-82" y="118"/>
+            <p2 x="-78" y="122"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>false</filled>
+          </circle>
+          <circle>
+            <p1 x="-82" y="118"/>
+            <p2 x="-78" y="122"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>true</filled>
+          </circle>
+          <circle>
+            <p1 x="-82" y="158"/>
+            <p2 x="-78" y="162"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>false</filled>
+          </circle>
+          <circle>
+            <p1 x="-82" y="158"/>
+            <p2 x="-78" y="162"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>true</filled>
+          </circle>
+          <circle>
+            <p1 x="-22" y="138"/>
+            <p2 x="-18" y="142"/>
+            <thickness>4</thickness>
+            <color>
+              <red>178</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>false</filled>
+          </circle>
+          <circle>
+            <p1 x="-22" y="138"/>
+            <p2 x="-18" y="142"/>
+            <thickness>4</thickness>
+            <color>
+              <red>178</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>true</filled>
+          </circle>
+          <text>
+            <p1 x="-103" y="169"/>
+            <p2 x="-102" y="169"/>
+            <text>1</text>
+            <orientation>RIGHTBOTTOM</orientation>
+            <size>24</size>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <circle>
+            <p1 x="-102" y="158"/>
+            <p2 x="-98" y="162"/>
+            <thickness>4</thickness>
+            <color>
+              <red>178</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>false</filled>
+          </circle>
+          <circle>
+            <p1 x="-102" y="158"/>
+            <p2 x="-98" y="162"/>
+            <thickness>4</thickness>
+            <color>
+              <red>178</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>true</filled>
+          </circle>
+          <poly>
+            <poly path="M 131,15 L 101,15 L 101,-15 L 131,-15 Z" evenOdd="false"/>
+            <thickness>4</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 125,-5 L 120,-5 L 120,5 L 115,5 L 115,-5 L 110,-5 L 110,5 L 105,5" evenOdd="false"/>
+            <thickness>2</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 80,40 L 140,40 L 140,140 L 80,140 Z" evenOdd="false"/>
+            <thickness>0</thickness>
+            <filled>true</filled>
+            <color>
+              <red>255</red>
+              <green>255</green>
+              <blue>180</blue>
+              <alpha>200</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 80,40 L 140,40 L 140,140 L 80,140 Z" evenOdd="false"/>
+            <thickness>0</thickness>
+            <filled>false</filled>
+            <color>
+              <red>255</red>
+              <green>255</green>
+              <blue>180</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 80,40 L 140,40 L 140,140 L 80,140 Z" evenOdd="false"/>
+            <thickness>4</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="110" y="158"/>
+            <p2 x="111" y="158"/>
+            <text>CPU</text>
+            <orientation>CENTERBOTTOM</orientation>
+            <size>18</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <circle>
+            <p1 x="78" y="85"/>
+            <p2 x="82" y="89"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>false</filled>
+          </circle>
+          <circle>
+            <p1 x="78" y="85"/>
+            <p2 x="82" y="89"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>true</filled>
+          </circle>
+          <circle>
+            <p1 x="78" y="102"/>
+            <p2 x="82" y="106"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>false</filled>
+          </circle>
+          <circle>
+            <p1 x="78" y="102"/>
+            <p2 x="82" y="106"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>true</filled>
+          </circle>
+          <circle>
+            <p1 x="78" y="131"/>
+            <p2 x="82" y="135"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>false</filled>
+          </circle>
+          <circle>
+            <p1 x="78" y="131"/>
+            <p2 x="82" y="135"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>true</filled>
+          </circle>
+          <circle>
+            <p1 x="78" y="58"/>
+            <p2 x="82" y="62"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>false</filled>
+          </circle>
+          <circle>
+            <p1 x="78" y="58"/>
+            <p2 x="82" y="62"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>true</filled>
+          </circle>
+          <circle>
+            <p1 x="138" y="47"/>
+            <p2 x="142" y="51"/>
+            <thickness>4</thickness>
+            <color>
+              <red>178</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>false</filled>
+          </circle>
+          <circle>
+            <p1 x="138" y="47"/>
+            <p2 x="142" y="51"/>
+            <thickness>4</thickness>
+            <color>
+              <red>178</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>true</filled>
+          </circle>
+          <circle>
+            <p1 x="138" y="71"/>
+            <p2 x="142" y="75"/>
+            <thickness>4</thickness>
+            <color>
+              <red>178</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>false</filled>
+          </circle>
+          <circle>
+            <p1 x="138" y="71"/>
+            <p2 x="142" y="75"/>
+            <thickness>4</thickness>
+            <color>
+              <red>178</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>true</filled>
+          </circle>
+          <circle>
+            <p1 x="138" y="87"/>
+            <p2 x="142" y="91"/>
+            <thickness>4</thickness>
+            <color>
+              <red>178</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>false</filled>
+          </circle>
+          <circle>
+            <p1 x="138" y="87"/>
+            <p2 x="142" y="91"/>
+            <thickness>4</thickness>
+            <color>
+              <red>178</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>true</filled>
+          </circle>
+          <circle>
+            <p1 x="138" y="114"/>
+            <p2 x="142" y="118"/>
+            <thickness>4</thickness>
+            <color>
+              <red>178</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>false</filled>
+          </circle>
+          <circle>
+            <p1 x="138" y="114"/>
+            <p2 x="142" y="118"/>
+            <thickness>4</thickness>
+            <color>
+              <red>178</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>true</filled>
+          </circle>
+          <text>
+            <p1 x="89" y="121"/>
+            <p2 x="90" y="121"/>
+            <text>addressM</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="136" y="105"/>
+            <p2 x="137" y="105"/>
+            <text>instruction</text>
+            <orientation>RIGHTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="87" y="133"/>
+            <p2 x="88" y="133"/>
+            <text>reset</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="86" y="90"/>
+            <p2 x="87" y="90"/>
+            <text>inM</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="124" y="91"/>
+            <p2 x="125" y="91"/>
+            <text>pc</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="102" y="77"/>
+            <p2 x="103" y="77"/>
+            <text>writeM</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="85" y="64"/>
+            <p2 x="86" y="64"/>
+            <text>clock</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="112" y="54"/>
+            <p2 x="113" y="54"/>
+            <text>outM</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="117" y="-19"/>
+            <p2 x="118" y="-19"/>
+            <text>Clock</text>
+            <orientation>CENTERBOTTOM</orientation>
+            <size>18</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="-103" y="69"/>
+            <p2 x="-102" y="69"/>
+            <text>1</text>
+            <orientation>RIGHTBOTTOM</orientation>
+            <size>24</size>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <circle>
+            <p1 x="-102" y="58"/>
+            <p2 x="-98" y="62"/>
+            <thickness>4</thickness>
+            <color>
+              <red>178</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>false</filled>
+          </circle>
+          <circle>
+            <p1 x="-102" y="58"/>
+            <p2 x="-98" y="62"/>
+            <thickness>4</thickness>
+            <color>
+              <red>178</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>true</filled>
+          </circle>
+          <poly>
+            <poly path="M -79,-30 L -21,-30 L -21,70 L -79,70 Z" evenOdd="false"/>
+            <thickness>4</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="-72" y="-17"/>
+            <p2 x="-71" y="-17"/>
+            <text>address</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="-72" y="3"/>
+            <p2 x="-71" y="3"/>
+            <text>data</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="-72" y="23"/>
+            <p2 x="-71" y="23"/>
+            <text>store</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <poly>
+            <poly path="M -79,47 L -72,40 L -79,33" evenOdd="false"/>
+            <thickness>2</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="-72" y="63"/>
+            <p2 x="-71" y="63"/>
+            <text>select</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="-24" y="23"/>
+            <p2 x="-23" y="23"/>
+            <text>out</text>
+            <orientation>RIGHTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="-50" y="88"/>
+            <p2 x="-49" y="88"/>
+            <text>RAM</text>
+            <orientation>CENTERBOTTOM</orientation>
+            <size>18</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <circle>
+            <p1 x="-82" y="-22"/>
+            <p2 x="-78" y="-18"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>false</filled>
+          </circle>
+          <circle>
+            <p1 x="-82" y="-22"/>
+            <p2 x="-78" y="-18"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>true</filled>
+          </circle>
+          <circle>
+            <p1 x="-82" y="-2"/>
+            <p2 x="-78" y="2"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>false</filled>
+          </circle>
+          <circle>
+            <p1 x="-82" y="-2"/>
+            <p2 x="-78" y="2"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>true</filled>
+          </circle>
+          <circle>
+            <p1 x="-82" y="18"/>
+            <p2 x="-78" y="22"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>false</filled>
+          </circle>
+          <circle>
+            <p1 x="-82" y="18"/>
+            <p2 x="-78" y="22"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>true</filled>
+          </circle>
+          <circle>
+            <p1 x="-82" y="38"/>
+            <p2 x="-78" y="42"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>false</filled>
+          </circle>
+          <circle>
+            <p1 x="-82" y="38"/>
+            <p2 x="-78" y="42"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>true</filled>
+          </circle>
+          <circle>
+            <p1 x="-82" y="58"/>
+            <p2 x="-78" y="62"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>false</filled>
+          </circle>
+          <circle>
+            <p1 x="-82" y="58"/>
+            <p2 x="-78" y="62"/>
+            <thickness>4</thickness>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>178</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>true</filled>
+          </circle>
+          <circle>
+            <p1 x="-22" y="18"/>
+            <p2 x="-18" y="22"/>
+            <thickness>4</thickness>
+            <color>
+              <red>178</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>false</filled>
+          </circle>
+          <circle>
+            <p1 x="-22" y="18"/>
+            <p2 x="-18" y="22"/>
+            <thickness>4</thickness>
+            <color>
+              <red>178</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+            <filled>true</filled>
+          </circle>
+          <text>
+            <p1 x="-70" y="43"/>
+            <p2 x="-69" y="43"/>
+            <text>clock</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+        </drawables>
+      </shape>
+    </entry>
+  </attributes>
   <visualElements>
     <visualElement>
       <elementName>In</elementName>
@@ -11,21 +1065,7 @@
           <string>reset</string>
         </entry>
       </elementAttributes>
-      <pos x="100" y="380"/>
-    </visualElement>
-    <visualElement>
-      <elementName>RAMAsync</elementName>
-      <elementAttributes>
-        <entry>
-          <string>AddrBits</string>
-          <int>16</int>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>16</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="180"/>
+      <pos x="40" y="360"/>
     </visualElement>
     <visualElement>
       <elementName>ROM</elementName>
@@ -35,29 +1075,37 @@
           <int>16</int>
         </entry>
         <entry>
+          <string>isProgramMemory</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>Bits</string>
           <int>16</int>
         </entry>
         <entry>
           <string>Data</string>
-          <data>5,ec10,0,e308,10,efc8,11,ea88,10,fc10,0,f4d0,19,e301,11,fc10,10
-,f090,11,e308,10,fc10,e7c8,8,ea87,11,fc10,1,e308,1d,ea87</data>
+          <data>fdc8,ec10,0,e308,10,efc8,11,ea88,10,fc10,0,f4d0,19,e301,11,fc10
+,10,f090,11,e308,10,fc10,e7c8,8,ea87,11,fc10,1,e308,1d,ea87</data>
         </entry>
         <entry>
           <string>lastDataFile</string>
-          <file>/Users/nand2tetris/rom_prog.txt</file>
+          <file>/Users/thomascarey/Code/CPU/programs/SumToN.hex</file>
         </entry>
         <entry>
           <string>intFormat</string>
           <intFormat>hex</intFormat>
         </entry>
+        <entry>
+          <string>autoReload</string>
+          <boolean>true</boolean>
+        </entry>
       </elementAttributes>
-      <pos x="-60" y="300"/>
+      <pos x="-40" y="260"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
       <elementAttributes/>
-      <pos x="-80" y="340"/>
+      <pos x="-60" y="300"/>
     </visualElement>
     <visualElement>
       <elementName>Clock</elementName>
@@ -67,147 +1115,197 @@
           <boolean>true</boolean>
         </entry>
         <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
           <string>Frequency</string>
-          <int>10</int>
+          <int>2147483647</int>
         </entry>
       </elementAttributes>
-      <pos x="120" y="300"/>
+      <pos x="140" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="-60" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>RAMDualPort</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-40" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>CPU.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>shapeType</string>
-          <shapeType>LAYOUT</shapeType>
-        </entry>
-      </elementAttributes>
-      <pos x="160" y="300"/>
+      <elementAttributes/>
+      <pos x="120" y="200"/>
     </visualElement>
   </visualElements>
   <wires>
     <wire>
-      <p1 x="220" y="320"/>
-      <p2 x="260" y="320"/>
+      <p1 x="20" y="160"/>
+      <p2 x="60" y="160"/>
     </wire>
     <wire>
-      <p1 x="0" y="320"/>
-      <p2 x="60" y="320"/>
+      <p1 x="-100" y="160"/>
+      <p2 x="-40" y="160"/>
     </wire>
     <wire>
-      <p1 x="140" y="320"/>
-      <p2 x="160" y="320"/>
-    </wire>
-    <wire>
-      <p1 x="220" y="340"/>
-      <p2 x="280" y="340"/>
-    </wire>
-    <wire>
-      <p1 x="-80" y="340"/>
-      <p2 x="-60" y="340"/>
-    </wire>
-    <wire>
-      <p1 x="80" y="340"/>
-      <p2 x="160" y="340"/>
+      <p1 x="180" y="260"/>
+      <p2 x="220" y="260"/>
     </wire>
     <wire>
       <p1 x="-100" y="260"/>
-      <p2 x="280" y="260"/>
+      <p2 x="-40" y="260"/>
     </wire>
     <wire>
-      <p1 x="-80" y="180"/>
-      <p2 x="-60" y="180"/>
+      <p1 x="60" y="260"/>
+      <p2 x="120" y="260"/>
     </wire>
     <wire>
-      <p1 x="0" y="200"/>
-      <p2 x="80" y="200"/>
+      <p1 x="-60" y="100"/>
+      <p2 x="220" y="100"/>
     </wire>
     <wire>
-      <p1 x="-100" y="200"/>
-      <p2 x="-60" y="200"/>
+      <p1 x="40" y="360"/>
+      <p2 x="80" y="360"/>
     </wire>
     <wire>
-      <p1 x="220" y="360"/>
-      <p2 x="280" y="360"/>
+      <p1 x="180" y="200"/>
+      <p2 x="240" y="200"/>
     </wire>
     <wire>
-      <p1 x="60" y="360"/>
-      <p2 x="160" y="360"/>
+      <p1 x="40" y="200"/>
+      <p2 x="100" y="200"/>
     </wire>
     <wire>
-      <p1 x="-80" y="120"/>
-      <p2 x="360" y="120"/>
+      <p1 x="-60" y="200"/>
+      <p2 x="-40" y="200"/>
     </wire>
     <wire>
-      <p1 x="100" y="380"/>
-      <p2 x="160" y="380"/>
+      <p1 x="100" y="200"/>
+      <p2 x="120" y="200"/>
     </wire>
     <wire>
-      <p1 x="220" y="380"/>
-      <p2 x="360" y="380"/>
+      <p1 x="-60" y="300"/>
+      <p2 x="-40" y="300"/>
     </wire>
     <wire>
-      <p1 x="-100" y="140"/>
-      <p2 x="260" y="140"/>
+      <p1 x="-80" y="140"/>
+      <p2 x="-40" y="140"/>
     </wire>
     <wire>
-      <p1 x="-100" y="220"/>
-      <p2 x="-60" y="220"/>
+      <p1 x="100" y="140"/>
+      <p2 x="140" y="140"/>
     </wire>
     <wire>
-      <p1 x="-100" y="460"/>
-      <p2 x="280" y="460"/>
+      <p1 x="-80" y="80"/>
+      <p2 x="240" y="80"/>
     </wire>
     <wire>
-      <p1 x="-100" y="300"/>
-      <p2 x="-60" y="300"/>
+      <p1 x="180" y="240"/>
+      <p2 x="260" y="240"/>
     </wire>
     <wire>
-      <p1 x="120" y="300"/>
-      <p2 x="140" y="300"/>
+      <p1 x="-100" y="240"/>
+      <p2 x="40" y="240"/>
     </wire>
     <wire>
-      <p1 x="80" y="200"/>
-      <p2 x="80" y="340"/>
+      <p1 x="60" y="240"/>
+      <p2 x="120" y="240"/>
     </wire>
     <wire>
-      <p1 x="-100" y="140"/>
-      <p2 x="-100" y="200"/>
+      <p1 x="-100" y="400"/>
+      <p2 x="260" y="400"/>
     </wire>
     <wire>
-      <p1 x="-100" y="220"/>
-      <p2 x="-100" y="260"/>
+      <p1 x="-100" y="180"/>
+      <p2 x="-40" y="180"/>
     </wire>
     <wire>
-      <p1 x="-100" y="300"/>
-      <p2 x="-100" y="460"/>
+      <p1 x="-60" y="120"/>
+      <p2 x="-40" y="120"/>
     </wire>
     <wire>
-      <p1 x="260" y="140"/>
-      <p2 x="260" y="320"/>
+      <p1 x="20" y="280"/>
+      <p2 x="60" y="280"/>
     </wire>
     <wire>
-      <p1 x="280" y="260"/>
-      <p2 x="280" y="340"/>
+      <p1 x="80" y="280"/>
+      <p2 x="120" y="280"/>
     </wire>
     <wire>
-      <p1 x="280" y="360"/>
-      <p2 x="280" y="460"/>
+      <p1 x="-100" y="60"/>
+      <p2 x="260" y="60"/>
     </wire>
     <wire>
-      <p1 x="360" y="120"/>
-      <p2 x="360" y="380"/>
+      <p1 x="180" y="220"/>
+      <p2 x="260" y="220"/>
     </wire>
     <wire>
-      <p1 x="60" y="320"/>
-      <p2 x="60" y="360"/>
+      <p1 x="240" y="80"/>
+      <p2 x="240" y="200"/>
     </wire>
     <wire>
-      <p1 x="140" y="300"/>
-      <p2 x="140" y="320"/>
+      <p1 x="80" y="280"/>
+      <p2 x="80" y="360"/>
     </wire>
     <wire>
-      <p1 x="-80" y="120"/>
-      <p2 x="-80" y="180"/>
+      <p1 x="-100" y="60"/>
+      <p2 x="-100" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="-100" y="260"/>
+      <p2 x="-100" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="-100" y="180"/>
+      <p2 x="-100" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="60"/>
+      <p2 x="260" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="240"/>
+      <p2 x="260" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="140"/>
+      <p2 x="100" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="200"/>
+      <p2 x="40" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="-60" y="100"/>
+      <p2 x="-60" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="220" y="100"/>
+      <p2 x="220" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="160"/>
+      <p2 x="60" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="260"/>
+      <p2 x="60" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="-80" y="80"/>
+      <p2 x="-80" y="140"/>
     </wire>
   </wires>
   <measurementOrdering/>

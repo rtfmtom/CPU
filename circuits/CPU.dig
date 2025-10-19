@@ -1,7 +1,233 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
   <version>2</version>
-  <attributes/>
+  <attributes>
+    <entry>
+      <string>shapeType</string>
+      <shapeType>CUSTOM</shapeType>
+    </entry>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
+    <entry>
+      <string>customShape</string>
+      <shape>
+        <pins>
+          <entry>
+            <string>addressM</string>
+            <pin>
+              <pos x="60" y="60"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>pc</string>
+            <pin>
+              <pos x="60" y="40"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>instruction</string>
+            <pin>
+              <pos x="0" y="60"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>writeM</string>
+            <pin>
+              <pos x="60" y="20"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>inM</string>
+            <pin>
+              <pos x="0" y="40"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>reset</string>
+            <pin>
+              <pos x="0" y="80"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>clock</string>
+            <pin>
+              <pos x="0" y="0"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>outM</string>
+            <pin>
+              <pos x="60" y="0"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+        </pins>
+        <drawables>
+          <poly>
+            <poly path="M 2.9439697,-13.525513 L 62.94397,-13.525513 L 62.94397,86.47449 L 2.9439697,86.47449 Z" evenOdd="false"/>
+            <thickness>0</thickness>
+            <filled>true</filled>
+            <color>
+              <red>255</red>
+              <green>255</green>
+              <blue>180</blue>
+              <alpha>200</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 2.9439697,-13.525513 L 62.94397,-13.525513 L 62.94397,86.47449 L 2.9439697,86.47449 Z" evenOdd="false"/>
+            <thickness>0</thickness>
+            <filled>false</filled>
+            <color>
+              <red>255</red>
+              <green>255</green>
+              <blue>180</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 2.9439697,-13.525513 L 62.94397,-13.525513 L 62.94397,86.47449 L 2.9439697,86.47449 Z" evenOdd="false"/>
+            <thickness>4</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="33" y="104"/>
+            <p2 x="34" y="104"/>
+            <text>CPU</text>
+            <orientation>CENTERBOTTOM</orientation>
+            <size>18</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="15" y="53"/>
+            <p2 x="16" y="53"/>
+            <text>addressM</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="52" y="65"/>
+            <p2 x="53" y="65"/>
+            <text>instruction</text>
+            <orientation>RIGHTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="10" y="80"/>
+            <p2 x="11" y="80"/>
+            <text>reset</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="9" y="37"/>
+            <p2 x="10" y="37"/>
+            <text>inM</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="46" y="37"/>
+            <p2 x="47" y="37"/>
+            <text>pc</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="25" y="23"/>
+            <p2 x="26" y="23"/>
+            <text>writeM</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="8" y="7"/>
+            <p2 x="9" y="7"/>
+            <text>clock</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="34" y="0"/>
+            <p2 x="35" y="0"/>
+            <text>outM</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>9</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+        </drawables>
+      </shape>
+    </entry>
+  </attributes>
   <visualElements>
     <visualElement>
       <elementName>alu16.dig</elementName>
@@ -45,6 +271,10 @@
         <entry>
           <string>intFormat</string>
           <intFormat>bin</intFormat>
+        </entry>
+        <entry>
+          <string>InDefault</string>
+          <value v="1" z="false"/>
         </entry>
       </elementAttributes>
       <pos x="820" y="-80"/>
