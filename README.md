@@ -192,4 +192,5 @@ This approach requires additional setup but opens up many more possibilities for
 
 <img width="1321" height="861" alt="Screenshot 2025-10-18 at 2 02 15 PM" src="https://github.com/user-attachments/assets/2f09863f-ddfc-4c15-8671-df6cd6116e1f" />
 
-For instructions on using the remote interface, please see [this repository]().
+  
+For more information on using the remote interface, please see [Life-Hack](https://github.com/rtfmtom/Life-Hack)
