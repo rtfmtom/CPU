@@ -2,7 +2,7 @@
 
 [Digital](https://github.com/rtfmtom/Digital)  
 [Life-Hack](https://github.com/rtfmtom/CPU)  
-[Assembler]()  
+[Assembler](https://github.com/rtfmtom/Assembler)  
 
 ## Table of Contents
 
