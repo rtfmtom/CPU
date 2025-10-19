@@ -8,12 +8,13 @@
   - [The C-Instruction](#the-c-instruction)
 - [Usage](#usage)
   - [Remote Interface Usage](#remote-interface-usage)
+- [Related Repositories](#related-repositories)
 
 # About
 
 This project is an implementation of the "Hack" computer specification from Nisan & Schocken's _The Elements of Computing Systems_. 
 
-All circuits were designed using [Digital](https://github.com/hneemann/Digital?tab=readme-ov-file), an open-source digital logic designer and circuit simulator.
+All circuits were designed using [Digital](https://github.com/rtfmtom/Digital), an open-source digital logic designer and circuit simulator.
 
 # Architecture
 
@@ -192,5 +193,9 @@ This approach requires additional setup but opens up many more possibilities for
 
 <img width="1321" height="861" alt="Screenshot 2025-10-18 at 2 02 15 PM" src="https://github.com/user-attachments/assets/2f09863f-ddfc-4c15-8671-df6cd6116e1f" />
 
-  
 For more information on using the remote interface, please see [Life-Hack](https://github.com/rtfmtom/Life-Hack)
+
+# Related Repositories
+[Digital](https://github.com/rtfmtom/Digital)  
+[Life-Hack](https://github.com/rtfmtom/CPU)  
+[Assembler]()  
