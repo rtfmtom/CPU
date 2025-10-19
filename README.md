@@ -1,3 +1,9 @@
+## Related Repositories
+
+[Digital](https://github.com/rtfmtom/Digital)  
+[Life-Hack](https://github.com/rtfmtom/CPU)  
+[Assembler]()  
+
 ## Table of Contents
 
 - [About](#about)
@@ -8,7 +14,6 @@
   - [The C-Instruction](#the-c-instruction)
 - [Usage](#usage)
   - [Remote Interface Usage](#remote-interface-usage)
-- [Related Repositories](#related-repositories)
 
 # About
 
@@ -195,7 +200,3 @@ This approach requires additional setup but opens up many more possibilities for
 
 For more information on using the remote interface, please see [Life-Hack](https://github.com/rtfmtom/Life-Hack)
 
-# Related Repositories
-[Digital](https://github.com/rtfmtom/Digital)  
-[Life-Hack](https://github.com/rtfmtom/CPU)  
-[Assembler]()  
