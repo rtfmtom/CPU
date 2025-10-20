@@ -15,7 +15,6 @@ All circuits were designed using [Digital](https://github.com/rtfmtom/Digital), 
 - [Architecture](#architecture)
 - [CPU](#cpu)
   - [The A-Instruction](#the-a-instruction)
-    - [Dual Purpose A-Register](#dual-purpose-a-register)
   - [The C-Instruction](#the-c-instruction)
 - [Usage](#usage)
   - [Remote Interface Usage](#remote-interface-usage)
