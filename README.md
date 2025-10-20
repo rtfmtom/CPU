@@ -12,7 +12,6 @@ All circuits were designed using [Digital](https://github.com/rtfmtom/Digital), 
 
 ## Table of Contents
 
-- [About](#about)
 - [Architecture](#architecture)
 - [CPU](#cpu)
   - [The A-Instruction](#the-a-instruction)
