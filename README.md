@@ -4,6 +4,12 @@
 [Life-Hack](https://github.com/rtfmtom/Life-Hack)  
 [Assembler](https://github.com/rtfmtom/Assembler)  
 
+# About
+
+This project is an implementation of the "Hack" computer specification from Nisan & Schocken's _The Elements of Computing Systems_. 
+
+All circuits were designed using [Digital](https://github.com/rtfmtom/Digital), an open-source digital logic designer and circuit simulator.
+
 ## Table of Contents
 
 - [About](#about)
@@ -14,12 +20,6 @@
   - [The C-Instruction](#the-c-instruction)
 - [Usage](#usage)
   - [Remote Interface Usage](#remote-interface-usage)
-
-# About
-
-This project is an implementation of the "Hack" computer specification from Nisan & Schocken's _The Elements of Computing Systems_. 
-
-All circuits were designed using [Digital](https://github.com/rtfmtom/Digital), an open-source digital logic designer and circuit simulator.
 
 # Architecture
 
