@@ -12,12 +12,48 @@ All circuits were designed using [Digital](https://github.com/rtfmtom/Digital), 
 
 ## Table of Contents
 
+- [Usage](#usage)
+  - [Remote Interface Usage](#remote-interface-usage)
 - [Architecture](#architecture)
 - [CPU](#cpu)
   - [The A-Instruction](#the-a-instruction)
   - [The C-Instruction](#the-c-instruction)
-- [Usage](#usage)
-  - [Remote Interface Usage](#remote-interface-usage)
+
+# Usage
+
+User-defined circuits in Digital are saved as XML files with the `.dig` extension. Saved circuits are composable, meaning you can import one `.dig` file into another circuit to act as an embedded chip.
+
+This repository contains all the `.dig` files necessary to build the Hack computer. To run it locally, clone this repository, open Digital, and select the `circuits/HackComputer.dig` file:
+
+<img width="709" height="523" alt="Open" src="https://github.com/user-attachments/assets/c1662890-5b34-4d2a-85ff-239de9bc64db" />
+
+I've included several programs for demonstration purposes in the `programs` directory. To load a program into the `HackComputer` circuit:
+
+1. Right-click the `ROM` chip
+2. Select 'Advanced'
+3. Check 'Program Memory' and 'Reload model at start'
+4. Use the `...` button to select a `.hex` file from the programs folder
+5. Click `OK`
+
+<img width="746" height="639" alt="Configure ROM" src="https://github.com/user-attachments/assets/ae1a2b28-f411-4e8c-ab63-eaa3f530b130" />
+
+Once the program is loaded into ROM, you can execute it by clicking the 'Start' button.
+
+While the program is running, you can inspect the `HackComputer`'s data memory by right-clicking the RAM chip:
+
+<img width="876" height="657" alt="Inspect RAM" src="https://github.com/user-attachments/assets/0a81a4e4-375d-4586-ae19-7c698cfb4f03" />
+
+In the example above, the program `SumToN.hex` computes the sum of the first `n` natural numbers (1+2+3+...+n). Here, `n=6` is stored at memory address `0x0000`. Address `0x0010` stores the iteration count of the program's main loop, and address `0x0011` serves as an accumulator for the running sum. The final result is stored at `0x0001`: hexadecimal `0x15`, or decimal 21.
+
+### Remote Interface Usage
+
+More exciting demonstrations of `HackComputer` programs can be run by utilizing the remote interface with [a slightly modified fork of Digital](https://github.com/rtfmtom/Digital).
+
+This approach requires additional setup but opens up many more possibilities for experimentation, such as Conway's Game of Life:
+
+<img width="1321" height="861" alt="Screenshot 2025-10-18 at 2 02 15 PM" src="https://github.com/user-attachments/assets/2f09863f-ddfc-4c15-8671-df6cd6116e1f" />
+
+For more information on using the remote interface, please see [Life-Hack](https://github.com/rtfmtom/Life-Hack)
 
 # Architecture
 
@@ -161,40 +197,3 @@ The following tables provide a complete reference of `comp`, `dest`, and `jump` 
 <td>When a == 0, use A register; when a == 1, use M (RAM[A])</td>
 <td></td>
 </table>
-
-# Usage
-
-User-defined circuits in Digital are saved as XML files with the `.dig` extension. Saved circuits are composable, meaning you can import one `.dig` file into another circuit to act as an embedded chip.
-
-This repository contains all the `.dig` files necessary to build the Hack computer. To run it locally, clone this repository, open Digital, and select the `circuits/HackComputer.dig` file:
-
-<img width="709" height="523" alt="Open" src="https://github.com/user-attachments/assets/c1662890-5b34-4d2a-85ff-239de9bc64db" />
-
-I've included several programs for demonstration purposes in the `programs` directory. To load a program into the `HackComputer` circuit:
-
-1. Right-click the `ROM` chip
-2. Select 'Advanced'
-3. Check 'Program Memory' and 'Reload model at start'
-4. Use the `...` button to select a `.hex` file from the programs folder
-5. Click `OK`
-
-<img width="746" height="639" alt="Configure ROM" src="https://github.com/user-attachments/assets/ae1a2b28-f411-4e8c-ab63-eaa3f530b130" />
-
-Once the program is loaded into ROM, you can execute it by clicking the 'Start' button.
-
-While the program is running, you can inspect the `HackComputer`'s data memory by right-clicking the RAM chip:
-
-<img width="876" height="657" alt="Inspect RAM" src="https://github.com/user-attachments/assets/0a81a4e4-375d-4586-ae19-7c698cfb4f03" />
-
-In the example above, the program `SumToN.hex` computes the sum of the first `n` natural numbers (1+2+3+...+n). Here, `n=6` is stored at memory address `0x0000`. Address `0x0010` stores the iteration count of the program's main loop, and address `0x0011` serves as an accumulator for the running sum. The final result is stored at `0x0001`: hexadecimal `0x15`, or decimal 21.
-
-### Remote Interface Usage
-
-More exciting demonstrations of `HackComputer` programs can be run by utilizing the remote interface with [a slightly modified fork of Digital](https://github.com/rtfmtom/Digital).
-
-This approach requires additional setup but opens up many more possibilities for experimentation, such as Conway's Game of Life:
-
-<img width="1321" height="861" alt="Screenshot 2025-10-18 at 2 02 15 PM" src="https://github.com/user-attachments/assets/2f09863f-ddfc-4c15-8671-df6cd6116e1f" />
-
-For more information on using the remote interface, please see [Life-Hack](https://github.com/rtfmtom/Life-Hack)
-
